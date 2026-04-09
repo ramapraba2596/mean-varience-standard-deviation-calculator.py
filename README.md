@@ -24,3 +24,6 @@ The input data is first validated to ensure it contains exactly nine numbers. It
 - Input validation for correct data size
 
 This project demonstrates how numerical computing and matrix operations can be used to perform efficient data analysis.
+
+
+AUTHOR:K.RAMAPRABA
