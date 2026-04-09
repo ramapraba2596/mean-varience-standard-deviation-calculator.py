@@ -1,29 +1,26 @@
-This project is a Python program that calculates statistical measures such as mean, variance, standard deviation, maximum, minimum, and sum for a 3×3 matrix. The program uses the NumPy library to perform these calculations efficiently.
-The function takes a list containing nine numbers as input, converts the list into a 3×3 NumPy array, and computes the required statistical values for rows, columns, and the entire matrix.
-Features
-Converts a list of 9 numbers into a 3×3 matrix.
-Calculates:
-Mean
-Variance
-Standard Deviation
-Maximum
-Minimum
-Sum
-Performs calculations for:
-Rows
-Columns
-Flattened matrix
-Raises an error if the input list does not contain exactly nine numbers.
-Technologies Used
-Python
-NumPy
-Function Description
-The main function in this project is calculate().
-Input:
-A list containing exactly 9 numerical values.
-Output:
-A dictionary containing statistical calculations for rows, columns, and the flattened matrix.
-Example Input
-[0,1,2,3,4,5,6,7,8]
-Example Output
-A dictionary containing mean, variance, standard deviation, max, min, and sum values.
+📊 Mean-Variance-Standard Deviation Calculator
+
+This project focuses on performing statistical analysis on a list of numerical data. The program converts a list of nine numbers into a 3×3 matrix and calculates various statistical measures.
+
+The main objective of this project is to understand how different statistical operations work on multi-dimensional data. The program computes values such as mean, variance, standard deviation, maximum, minimum, and sum across rows, columns, and the entire dataset.
+
+The input data is first validated to ensure it contains exactly nine numbers. It is then reshaped into a matrix format, allowing efficient calculations across different axes.
+
+🔧 Technologies Used
+
+- Python
+- NumPy
+
+📁 Input
+
+- List of 9 numerical values
+
+🎯 Key Features
+
+- Converts list into 3×3 matrix
+- Calculates mean, variance, and standard deviation
+- Computes max, min, and sum values
+- Axis-wise (row & column) and overall calculations
+- Input validation for correct data size
+
+This project demonstrates how numerical computing and matrix operations can be used to perform efficient data analysis.
